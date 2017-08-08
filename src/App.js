@@ -6,8 +6,10 @@ import Carousel from './Carousel'
 import Slide from './Slide'
 import Markdown from './Markdown'
 import KeyboardShortcuts from './KeyboardShortcuts'
+import Hash from './Hash'
 import XRay from 'react-x-ray'
 import Index from './Index'
+import Footer from './Footer'
 import Debug from './Debug'
 import {
   dec,
@@ -38,6 +40,7 @@ const App = hoc(props => (
         ))}
       </Carousel>
       <KeyboardShortcuts />
+      <Hash />
       <button
         onClick={e => props.update(dec)}
         children='Previous'
@@ -47,8 +50,7 @@ const App = hoc(props => (
         children='Next'
       />
       <Index slides={slides} />
-      <Debug {...props} />
-      <Debug slides={slides} />
+      <Footer />
     </XRay>
   </ThemeProvider>
 ))

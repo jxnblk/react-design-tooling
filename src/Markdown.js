@@ -2,10 +2,18 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import styled from 'styled-components'
 
+const headingColor = props => props.level === 1 ? ({
+  paddingLeft: '8px',
+  paddingRight: '8px',
+  color: 'black',
+  backgroundColor: 'white'
+}) : null
+
 const Heading = styled.h1`
   font-size: inherit;
   font-weight: inherit;
   margin: 0;
+  ${headingColor}
 `
 
 const _Image = styled.img`
@@ -42,11 +50,6 @@ const BlockQuote = styled.blockquote`
   font-size: 50%;
   margin: 0;
   color: ${props => props.theme.colors.magenta};
-
-  &::before {
-    content: '“';
-    float: left;
-  }
 `
 
 const Link = styled.a`

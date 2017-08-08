@@ -6,15 +6,17 @@ const Index = ({
   update
 }) => (
   <div>
-    <ul>
-      {slides.map((slide, i) => (
-        <li key={i}>
-          <button onClick={e => update(state => ({ index: i }))}>
-            {i} <code>slide</code>
-          </button>
-        </li>
-      ))}
-    </ul>
+    {slides.map((slide, i) => (
+      <a
+        key={i}
+        href={'#' + i}
+        onClick={e => {
+          update(state => ({ index: i }))
+          window.scrollTo(0, 0)
+        }}>
+        {i}{' '}
+      </a>
+    ))}
   </div>
 )
 

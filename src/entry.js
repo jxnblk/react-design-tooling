@@ -8,7 +8,6 @@ injectGlobal`
 body {
   font-family: 'Roboto Mono', Menlo, monospace;
   line-height: 1.5;
-  font-size: 4vw;
   margin: 0;
   color: white;
   background-color: black;

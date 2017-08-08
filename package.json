@@ -1,0 +1,30 @@
+{
+  "name": "react-design-tools-deck",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack -p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "grid-styled": "^2.0.0-10",
+    "raw-loader": "^0.5.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-live": "^1.7.0",
+    "react-markdown": "^2.5.0",
+    "react-x-ray": "^1.0.0-2",
+    "refunk": "^1.0.0-2",
+    "styled-components": "^2.1.2",
+    "webpack": "^3.5.0",
+    "webpack-dev-server": "^2.7.0"
+  }
+}

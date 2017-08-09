@@ -127,6 +127,10 @@ Pure UI
 
 > “A pure function is one that exhibits the property of substitution: replacing a call with its returned value should make the program equivalent. As an example, `concat('hello', 'world')` can be substituted with `'hello world'` without changing the behavior of your program.
 
+- [Guillermo Rauch *Pure UI*](https://rauchg.com/2015/pure-ui)
+
+---
+
 > “How can we apply this to a graphical user interface? By having the function return an abstract representation of widgets (or markup) to be rendered on the screen...”
 
 - [Guillermo Rauch *Pure UI*](https://rauchg.com/2015/pure-ui)
@@ -294,17 +298,19 @@ Composition
 
 > “A highly composable system provides recombinant components that can be selected and assembled in various combinations to satisfy specific user requirements. In information systems, the essential features that make a component composable are that it be:”
 
-- [Composability](https://en.wikipedia.org/wiki/Composability)
+- [Composability (Wikipedia)](https://en.wikipedia.org/wiki/Composability)
 
 ---
 
-Self-contained & Stateless
+> self-contained (modular): it can be deployed independently
 
-<!--
-> self-contained (modular): it can be deployed independently – note that it may cooperate with other components, but dependent components are replaceable
+- [Composability (Wikipedia)](https://en.wikipedia.org/wiki/Composability)
 
-> stateless: it treats each request as an independent transaction, unrelated to any previous request. Stateless is just one technique; managed state and transactional systems can also be composable, but with greater difficulty.
--->
+---
+
+> stateless: it treats each request as an independent transaction, unrelated to any previous request
+
+- [Composability (Wikipedia)](https://en.wikipedia.org/wiki/Composability)
 
 ---
 
@@ -368,15 +374,6 @@ UI component libraries
 
 ---
 
-## Who to Watch
-
-- Jon Gold
-- Spectrum.chat
-- Figma
-- Compositor
-
----
-
 # Thanks
 
 jxnblk.com
@@ -391,6 +388,15 @@ jxnblk.com
 - [React Sketch.app][react-sketchapp]
 - [Storybook][storybook]
 - [Rebass][rebass]
+
+---
+
+## See Also
+
+- [Spectrum.chat](https://spectrum.chat)
+- [Figma](https://www.figma.com)
+- [Compositor](https://compositor.io)
+
 
 [media-object]: http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
 [pure-ui]: https://rauchg.com/2015/pure-ui

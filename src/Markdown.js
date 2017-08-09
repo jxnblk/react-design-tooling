@@ -42,13 +42,14 @@ const Pre = styled.pre`
 
 const Code = styled.code`
   font-family: inherit;
+  padding: 4px;
   color: ${props => props.theme.colors.cyan};
 `
 
 const CodeBlock = props => <Pre children={props.literal} />
 
 const BlockQuote = styled.blockquote`
-  font-size: 50%;
+  font-size: 75%;
   margin: 0;
   color: ${props => props.theme.colors.magenta};
 `

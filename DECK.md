@@ -177,6 +177,20 @@ styled-components
 
 ---
 
+```js
+const Heading = styled.h2`
+  font-size: 32px;
+  line-height: 1.25;
+  margin: 0;
+`
+
+const BlueHeading = styled(Heading)`
+  color: ${props => props.theme.blue};
+`
+```
+
+---
+
 Rebass
 
 ---
@@ -195,6 +209,15 @@ Rebass
   color='white'
   bg='blue'
 />
+```
+
+---
+
+```
+const Card = styled(Box)`
+  border-radius: 2px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .25);
+`
 ```
 
 ---

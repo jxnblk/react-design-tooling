@@ -42,7 +42,7 @@ const Pre = styled.pre`
 
 const Code = styled.code`
   font-family: inherit;
-  color: ${props => props.theme.colors.blue};
+  color: ${props => props.theme.colors.cyan};
 `
 
 const CodeBlock = props => <Pre children={props.literal} />

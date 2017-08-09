@@ -22,7 +22,11 @@
 
 Principal UX Developer<br/>at Priceline.com
 
-Previously at<br />Kickstarter, Etsy, and The Grid
+1/3 of Compositor. Previously at<br />Kickstarter, Etsy, and The Grid
+
+---
+
+Rebass, Basscss, CSS Stats
 
 ---
 
@@ -40,15 +44,6 @@ Stitch Fix
 
 Downward spiral of<br /> front-end development
 
-<!--
-<video
-  autoplay
-  loop
-  muted
-  src='https://video.twimg.com/ext_tw_video/890702007882862600/pu/vid/1280x720/6fVwrSe3TaxUuiYD.mp4'
-/>
--->
-
 ---
 
 Nicole Sullivan & OOCSS
@@ -65,6 +60,14 @@ Basscss & Tachyons
 ---
 
 Design constraints
+
+---
+
+<div style='font-size:64px'>64px</div>
+<div style='font-size:48px'>48px</div>
+<div style='font-size:32px'>32px</div>
+<div style='font-size:24px'>24px</div>
+<div style='font-size:16px'>16px</div>
 
 ---
 
@@ -121,6 +124,12 @@ React
 
 ---
 
+> “If you’re writing React, you have access to a more powerful styling construct than CSS class names. You have components.”
+
+- [Michael Chan](https://medium.learnreact.com/scale-fud-and-style-components-c0ce87ec9772)
+
+---
+
 Pure UI
 
 ---
@@ -152,6 +161,16 @@ Presentational & Container Components
 ---
 
 Create React App
+
+---
+
+```sh
+npm install -g create-react-app
+
+create-react-app my-app
+cd my-app/
+npm start
+```
 
 ---
 
@@ -207,6 +226,16 @@ Rebass
 ---
 
 ```
+<Text
+  bold
+  fontSize={4}>
+  Hello
+</Text>
+```
+
+---
+
+```
 <Box
   m={2}
   p={3}
@@ -226,7 +255,43 @@ const Card = styled(Box)`
 
 ---
 
+```
+const ProductCard = props => (
+  <Card width={256}>
+    <BackgroundImage src={props.image} />
+    <Box p={2}>
+      <Subhead>{props.title}</Subhead>
+      <Small>{props.text}</Small>
+    </Box>
+  </Card>
+)
+```
+
+---
+
+styled-system
+
+---
+
+```js
+import styled from 'styled-components'
+import { space, width, fontSize, color } from 'styled-system'
+
+const Box = styled.div`
+  ${space}
+  ${width}
+  ${fontSize}
+  ${color}
+`
+```
+
+---
+
 React Sketch.app
+
+---
+
+![react-sketchapp](https://cloud.githubusercontent.com/assets/591643/24777148/e742cd0e-1ad8-11e7-8751-090f6b2db514.png)
 
 ---
 
@@ -245,13 +310,9 @@ React Sketch.app
 - Sketch Plugins
 - Etc.
 
-<!--
-- Structor
--->
-
 ---
 
-# What's wrong with the current state of design tools?
+# What's wrong with design tools generally?
 
 ---
 
@@ -267,11 +328,23 @@ Redlines
 
 ---
 
+![handoff](images/handoff.png)
+
+---
+
+![redline](images/spec.png)
+
+---
+
 Handoff
 
 ---
 
 Inefficient workflows
+
+---
+
+Compromised design
 
 ---
 
@@ -331,14 +404,6 @@ Baseline Alignment
 ---
 
 Embrace the Web
-
----
-
-- Device-agnostic
-- Box model
-- Fluid layouts
-- Document flow
-- Zooming
 
 ---
 

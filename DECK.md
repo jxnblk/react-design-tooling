@@ -134,17 +134,18 @@ Pure UI
 
 ---
 
+<!--
 > “A pure function is one that exhibits the property of substitution: replacing a call with its returned value should make the program equivalent. As an example, `concat('hello', 'world')` can be substituted with `'hello world'` without changing the behavior of your program.
 
 - [Guillermo Rauch *Pure UI*](https://rauchg.com/2015/pure-ui)
 
----
+
 
 > “How can we apply this to a graphical user interface? By having the function return an abstract representation of widgets (or markup) to be rendered on the screen...”
 
 - [Guillermo Rauch *Pure UI*](https://rauchg.com/2015/pure-ui)
 
----
+-->
 
 ```js
 (state) => ui
@@ -171,6 +172,10 @@ create-react-app my-app
 cd my-app/
 npm start
 ```
+
+---
+
+Hot Loading
 
 ---
 

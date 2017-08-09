@@ -3,8 +3,7 @@ import ReactMarkdown from 'react-markdown'
 import styled from 'styled-components'
 
 const headingColor = props => props.level === 1 ? ({
-  paddingLeft: '8px',
-  paddingRight: '8px',
+  padding: '8px',
   color: 'black',
   backgroundColor: 'white'
 }) : null
@@ -27,7 +26,8 @@ const Image = styled.div`
   margin-left: -10vw;
   margin-right: -10vw;
   height: 100vh;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
   background-image: url(${props => props.src});
 `
@@ -41,6 +41,7 @@ const Pre = styled.pre`
 `
 
 const Code = styled.code`
+  font-family: inherit;
   color: ${props => props.theme.colors.blue};
 `
 
@@ -62,7 +63,7 @@ const List = styled.ul`
 `
 
 const Item = styled.li`
-  font-size: 50%;
+  font-size: 75%;
   &::before {
     content: '- ';
   }

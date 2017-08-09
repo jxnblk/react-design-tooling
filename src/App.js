@@ -10,12 +10,6 @@ import Hash from './Hash'
 import XRay from 'react-x-ray'
 import Index from './Index'
 import Footer from './Footer'
-import Debug from './Debug'
-import {
-  dec,
-  inc,
-  toggleXRay
-} from './updaters'
 
 const slides = md.split('---\n')
   .filter(n => n.length)
@@ -41,14 +35,6 @@ const App = hoc(props => (
       </Carousel>
       <KeyboardShortcuts />
       <Hash />
-      <button
-        onClick={e => props.update(dec)}
-        children='Previous'
-      />
-      <button
-        onClick={e => props.update(inc)}
-        children='Next'
-      />
       <Index slides={slides} />
       <Footer />
     </XRay>

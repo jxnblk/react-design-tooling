@@ -4,15 +4,19 @@
 
 ---
 
+<img
+  data-src='http://jxnblk.com/avatar/avatar.svg'
+  src='http://jxnblk.com/avatar/avatar-640.png'
+  width='128'
+  height='128'
+  style='border-radius:9999px'
+  alt='avatar'
+/>
+
 ## Brent Jackson
 
 ## @jxnblk
 
-<img
-  src='http://jxnblk.com/avatar/avatar.svg'
-  width='48'
-  height='48'
-/>
 
 ---
 
@@ -34,11 +38,25 @@ Stitch Fix
 
 ---
 
-Downward spiral of development
+Downward spiral of<br /> front-end development
+
+<!--
+<video
+  autoplay
+  loop
+  muted
+  src='https://video.twimg.com/ext_tw_video/890702007882862600/pu/vid/1280x720/6fVwrSe3TaxUuiYD.mp4'
+/>
+-->
 
 ---
 
 Nicole Sullivan & OOCSS
+
+---
+
+1. Separate structure and skin
+2. Separate container and content
 
 ---
 
@@ -47,6 +65,12 @@ Basscss & Tachyons
 ---
 
 Design constraints
+
+---
+
+- Typographic Scale `h1 – h6`
+- Spacing Scale `m0 - m4`
+- Composition `className='h2 mt4 mb2'`
 
 ---
 
@@ -60,11 +84,15 @@ Design velocity
 
 ---
 
-<!--
 Designers who code
--->
 
-Ideas spread like viruses
+---
+
+Code literacy
+
+---
+
+Ideas spread like fire
 
 ---
 
@@ -103,29 +131,104 @@ Pure UI
 
 ---
 
+Presentational & Container Components
+
+---
+
 # Current Landscape
 
 ---
 
-## Storybook
+Storybook
 
 ---
 
-## styled-components
+![Rebass Storybook](https://cdn-images-1.medium.com/max/1600/1*YqvTIkE53v_Id97Y_6V8eg.gif)
 
 ---
 
-## Rebass
+- Isolated UI Development
+- Pure, Functional UI
+- Approachable
+- Separation of presentation & containers
 
 ---
 
-## React Sketch.app
+styled-components
 
 ---
 
-# What's Wrong
+- Components as styling construct
+- Approachable
+- Themeable
+- Extensible
 
 ---
+
+Rebass
+
+---
+
+- Components as styling construct
+- Design constraints
+- Themeable
+- Extensible
+
+---
+
+```
+<Box
+  m={2}
+  p={3}
+  color='white'
+  bg='blue'
+/>
+```
+
+---
+
+React Sketch.app
+
+---
+
+- Single source of truth
+- Design systems
+- True to the medium
+
+---
+
+# What's wrong with the current state of design tools?
+
+---
+
+Static Images
+
+---
+
+Proprietary Formats
+
+---
+
+Redlines & Waterfall
+
+---
+
+Handoff
+
+---
+
+## The Medium of The Web
+
+---
+
+- Responsive Web Design
+- Links & Routing
+- Network Connections
+- Data Fetching
+- Progressive Web Apps
+
+---
+
 
 # Better Tooling
 
@@ -135,7 +238,7 @@ Composition
 
 ---
 
-> A highly composable system provides recombinant components that can be selected and assembled in various combinations to satisfy specific user requirements. In information systems, the essential features that make a component composable are that it be:
+> “A highly composable system provides recombinant components that can be selected and assembled in various combinations to satisfy specific user requirements. In information systems, the essential features that make a component composable are that it be:”
 
 - [Composability](https://en.wikipedia.org/wiki/Composability)
 
@@ -151,13 +254,66 @@ Self-contained & Stateless
 
 ---
 
+Design Systems
+
+---
+
+Design Constraints
+
+---
+
+Baseline Alignment
+
+---
+
+Embrace the Web
+
+---
+
 # The Future
+
+---
+
+Layouts
+
+---
+
+Prototyping
+
+---
+
+Rapid prototyping
+
+---
+
+Browser Dev Tools
+
+---
+
+Design modes
+
+---
+
+Design systems
+
+---
+
+UI component libraries
+
+---
+
+## Who to Watch
+
+- Jon Gold
+- Spectrum.chat
+- Figma
+- Compositor
 
 ---
 
 # Thanks
 
-http://jxnblk.com
+jxnblk.com
 
 ---
 
@@ -172,6 +328,7 @@ http://jxnblk.com
 
 [media-object]: http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
 [pure-ui]: https://rauchg.com/2015/pure-ui
+[dumb-smart]: https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0
 [react-sketchapp]: https://github.com/airbnb/react-sketchapp
 [storybook]: https://storybook.js.org
 [rebass]: http://jxnblk.com/rebass

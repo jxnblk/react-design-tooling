@@ -11,6 +11,7 @@ body {
   margin: 0;
   color: white;
   background-color: black;
+  -webkit-font-smoothing: antialiased;
 }
 `
 

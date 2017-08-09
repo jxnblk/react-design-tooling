@@ -19,17 +19,25 @@ class KeyboardShortcuts extends React.Component {
         altKey
       } = e
 
-      if (shiftKey || metaKey || ctrlKey || altKey) return
+      if (metaKey || ctrlKey || altKey) return
       e.preventDefault()
       const { update } = this.props
-      // console.log(key)
+      console.log('key', key)
       switch (key) {
         case 'j':
         case 'ArrowRight':
           update(inc)
           break
+        case ' ':
+          if (shiftKey) {
+            update(dec)
+          } else {
+            update(inc)
+          }
+          break
         case 'k':
         case 'ArrowLeft':
+        case 'Backspace':
           update(dec)
           break
         case '0':

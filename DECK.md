@@ -385,9 +385,17 @@ jxnblk.com
 
 - [The Media Object][media-object]
 - [Pure UI][pure-ui]
+- [Presentational & Container Components][dumb-smart]
 - [React Sketch.app][react-sketchapp]
 - [Storybook][storybook]
 - [Rebass][rebass]
+
+[media-object]: http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
+[pure-ui]: https://rauchg.com/2015/pure-ui
+[dumb-smart]: https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0
+[react-sketchapp]: https://github.com/airbnb/react-sketchapp
+[storybook]: https://storybook.js.org
+[rebass]: http://jxnblk.com/rebass
 
 ---
 
@@ -398,12 +406,6 @@ jxnblk.com
 - [Compositor](https://compositor.io)
 
 
-[media-object]: http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
-[pure-ui]: https://rauchg.com/2015/pure-ui
-[dumb-smart]: https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0
-[react-sketchapp]: https://github.com/airbnb/react-sketchapp
-[storybook]: https://storybook.js.org
-[rebass]: http://jxnblk.com/rebass
 
 
 

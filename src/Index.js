@@ -9,6 +9,9 @@ import {
 
 const Root = styled.nav`
   padding: 32px;
+  @media print {
+    display: none;
+  }
 `
 
 const Link = styled.a`

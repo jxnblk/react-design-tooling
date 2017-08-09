@@ -3,6 +3,9 @@ import styled from 'styled-components'
 
 const Root = styled.footer`
   padding: 32px;
+  @media print {
+    display: none;
+  }
 `
 
 const Link = styled.a`

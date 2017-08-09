@@ -69,7 +69,7 @@ Design constraints
 ---
 
 - Typographic Scale `h1 – h6`
-- Spacing Scale `m0 - m4`
+- Spacing Scale `m0 – m4`
 - Composition `className='h2 mt4 mb2'`
 
 ---
@@ -109,6 +109,14 @@ Ideas spread like fire
 
 ---
 
+༼ ༎ຶ ෴ ༎ຶ༽
+
+---
+
+ᕕ( ᐛ )ᕗ
+
+---
+
 React
 
 ---
@@ -136,6 +144,10 @@ Presentational & Container Components
 ---
 
 # Current Landscape
+
+---
+
+Create React App
 
 ---
 
@@ -197,23 +209,42 @@ React Sketch.app
 
 ---
 
+## Others
+
+- UX Pin
+- Figma
+- Webflow
+- React Studio
+- Sketch Plugins
+- Etc.
+
+<!--
+- Structor
+-->
+
+---
+
 # What's wrong with the current state of design tools?
 
 ---
 
-Static Images
+Static images
 
 ---
 
-Proprietary Formats
+Proprietary formats
 
 ---
 
-Redlines & Waterfall
+Redlines
 
 ---
 
 Handoff
+
+---
+
+Inefficient workflows
 
 ---
 
@@ -266,7 +297,19 @@ Baseline Alignment
 
 ---
 
+![](images/paper-baseline.jpg)
+
+---
+
 Embrace the Web
+
+---
+
+- Device-agnostic
+- Box model
+- Fluid layouts
+- Document flow
+- Zooming
 
 ---
 

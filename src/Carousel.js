@@ -3,6 +3,10 @@ import styled from 'styled-components'
 
 const Root = styled.div`
   overflow: hidden;
+
+  @media print {
+    overflow: visible;
+  }
 `
 
 const Inner = styled.div`
@@ -12,6 +16,12 @@ const Inner = styled.div`
   transition-property: transform;
   transition-duration: .2s;
   transition-timing-function: ease-out;
+
+  @media print {
+    width: 100%;
+    display: block;
+    transform: none;
+  }
 `
 
 const Carousel = props => (

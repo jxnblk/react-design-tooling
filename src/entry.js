@@ -13,6 +13,11 @@ body {
   background-color: black;
   -webkit-font-smoothing: antialiased;
 }
+
+@page {
+  margin: 0;
+  size: 8.5in 11in landscape;
+}
 `
 
 render(<App />, app)
